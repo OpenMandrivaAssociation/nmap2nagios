@@ -9,7 +9,6 @@ Source:		%{name}-%{version}.tar.bz2
 Requires:	nmap
 Requires:	perl-XML-Simple
 #BuildRequires:	perl
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildArch:	noarch
 
 %description
