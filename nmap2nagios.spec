@@ -1,7 +1,7 @@
 Summary:	Generates template-based object configuration files for Nagios
 Name:		nmap2nagios
 Version:	0.1.3a
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	Artistic
 Group:		Networking/Other
 URL:		http://nagios.sourceforge.net/download/contrib/addons/
