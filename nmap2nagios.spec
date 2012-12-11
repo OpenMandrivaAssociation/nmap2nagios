@@ -1,7 +1,7 @@
 Summary:	Generates template-based object configuration files for Nagios
 Name:		nmap2nagios
 Version:	0.1.3a
-Release:	%mkrel 5
+Release:	%mkrel 4
 License:	Artistic
 Group:		Networking/Other
 URL:		http://nagios.sourceforge.net/download/contrib/addons/
@@ -50,3 +50,34 @@ install -m0644 nmap2nagios_3x.conf %{buildroot}%{_sysconfdir}/nmap2nagios.conf
 %config(noreplace) %attr(0644,root,root) %{_sysconfdir}/%{name}.conf
 %attr(0755,root,root) %{_bindir}/%{name}.pl
 %attr(0644,root,root) %{_mandir}/man1/%{name}.1*
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.1.3a-4mdv2010.0
++ Revision: 430176
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.1.3a-3mdv2009.0
++ Revision: 254012
+- rebuild
+
+* Mon Feb 11 2008 Oden Eriksson <oeriksson@mandriva.com> 0.1.3a-1mdv2008.1
++ Revision: 165285
+- use the new nmap2nagios-ng version
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Jul 14 2006 Oden Eriksson <oeriksson@mandriva.com> 0.1.2-4mdv2007.0
+- rebuild
+
+* Fri Jun 03 2005 Oden Eriksson <oeriksson@mandriva.com> 0.1.2-3mdk
+- rebuild
+
+* Sun May 16 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 0.1.2-2mdk
+- build release
+
