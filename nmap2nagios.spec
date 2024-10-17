@@ -4,7 +4,7 @@ Version:	0.1.3a
 Release:	5
 License:	Artistic
 Group:		Networking/Other
-URL:		http://nagios.sourceforge.net/download/contrib/addons/
+URL:		https://nagios.sourceforge.net/download/contrib/addons/
 Source0:	nmap2nagios-0.1.2.tar.bz2
 Source1:	nmap2nagios-ng.zip
 Requires:	nmap
